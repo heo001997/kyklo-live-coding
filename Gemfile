@@ -2,8 +2,7 @@
 
 source "https://rubygems.org"
 
-# gem "rails"
-
-gem "rspec", "~> 3.13"
-
-gem "byebug", "~> 11.1"
+group :development, :test do
+  gem "rspec", "~> 3.13"
+  gem "byebug", "~> 11.1"
+end
